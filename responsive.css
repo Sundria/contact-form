@@ -1,0 +1,12 @@
+@media(max-width:500px){
+    .w50{
+        flex: 1 1 100%;
+    }
+    .main-rbtn{
+        flex-wrap: wrap;
+    }
+    textarea{
+        height: 230px;
+    }
+
+}

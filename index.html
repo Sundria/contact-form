@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="checked">
+        <div class="mensagem-enviada">
+            <div><img src="icon-success-check.svg" alt="">
+            <h4>Message Sent!</h4>
+            </div>
+            <p>Thanks for completing the form. We'll be in touch soon!</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <form>
+
+            <h1 id="title">Contact Us</h1>
+
+            <div class="form-row">
+                <div class="w50">
+                    <label class="style-names">First Name<p>*</p></label>
+                    <input type="text" id="nome" class="required">
+                    <span class="error">This field is required</span>
+                </div>
+                <div class="w50">
+                    <label class="style-names">Last Name<p>*</p></label>
+                    <input type="text" id="sobrenome" class="required">
+                    <span class="error">This field is required</span>
+                </div>
+                <div class="w100">
+                    <label class="style-names">Email Address<p>*</p>
+                        </Address></label>
+                    <input type="email" id="email">
+                    <span class="error">Email required</span>
+                </div>
+
+
+
+                <div class="w100">
+                    <label class="style-names">Querry Type<p>*</p></label>
+                    <div class="main-rbtn">
+                        <label class="radio-one">
+                            <input type="radio" name="opcao" id="radioBtn">
+                            <label for="radioBtn">General Enquiry</label>
+                        </label>
+                        <label class="radio-one">
+                            <input type="radio" name="opcao" id="radioBtn2">
+                            <label for="radioBtn2">Support Request</label>
+                        </label>
+                    </div>
+                    <span class="error">Please select a query type</span>
+                </div>
+
+
+
+
+                <div class="w100">
+                    <label class="style-names">Message<p>*</p></label>
+                    <textarea class="required"></textarea>
+                    <span class="error">This field is required</span>
+                </div>
+
+                <div class="w100 area-texto">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        <p class="texto">I consent to being contacted by the team<span>*</span></p>
+                    </label>
+                    <span class="error">To submit this form, please consent to being contacted</span>
+                </div>
+
+                <div class="w100">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
