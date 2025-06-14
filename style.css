@@ -3,13 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: "Karla", sans-serif;
     background-color: hsl(148, 38%, 91%);
-    padding-bottom: 100px;
 }
-
 .checked {
     opacity: 0;
     transition: 1s;
@@ -20,9 +17,7 @@ body {
     margin: 0 auto;
     padding: auto 2%;
     justify-content: center;
-
 }
-
 .mensagem-enviada {
     color: white;
     width: 82%;
@@ -32,7 +27,6 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
 .mensagem-enviada div {
     gap: 10px;
     display: flex;
@@ -40,17 +34,14 @@ body {
     margin-left: 4px;
     margin-bottom: 15px;
 }
-
 .form-row {
     display: flex;
     flex-wrap: wrap;
 }
-
 #title {
     display: flex;
     padding: 35px 10px;
 }
-
 .container {
     max-width: 900px;
     display: flex;
@@ -60,30 +51,25 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
 }
-
 .w100 {
     flex: 1 1 100%;
     padding: 0 7px;
     margin: 5px auto;
 }
-
 .w50 {
     flex: 1 1 50%;
     padding: 0 7px;
     margin: 5px auto;
 }
-
 .style-names {
     display: inline-flex;
     margin: 5px 0;
     font-weight: 400;
 }
-
 .style-names p {
     margin-left: 5px;
     color: hsl(169, 82%, 27%);
 }
-
 .form-row input[type=text],
 .w100 input[type=email] {
     border: 1px solid hsl(169, 82%, 27%);
@@ -93,14 +79,12 @@ body {
     padding-left: 10px;
     font-size: 16px;
 }
-
 input[type=radio] {
     height: 20px;
     width: 20px;
     accent-color: hsl(169, 82%, 27%);
     flex-shrink: 0;
 }
-
 textarea {
     width: 100%;
     height: 114px;
@@ -109,22 +93,17 @@ textarea {
     border-radius: 8px;
     resize: none;
 }
-
 .test {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
 .main-rbtn {
     width: 100%;
     margin: 5px auto;
     gap: 12px;
     display: flex;
-
 }
-
 .radio-one {
     display: flex;
     align-items: center;
@@ -146,24 +125,20 @@ input[type=checkbox] {
     margin-right: 15px;
     flex-shrink: 0;
 }
-
 .area-texto {
     display: flex;
     flex-direction: column;
 }
-
 .checkbox {
     display: inline-flex;
     margin: 10px 0;
     align-items: center;
     cursor: pointer;
 }
-
 .texto span {
     margin-left: 4px;
     color: hsl(169, 82%, 27%);
 }
-
 input[type=submit] {
     width: 100%;
     height: 65px;
@@ -177,37 +152,40 @@ input[type=submit] {
     margin-top: 7px;
     margin-bottom: 30px;
 }
-
 input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
     outline: none;
     border: 2px solid hsl(169, 51%, 44%);
 }
-
 .radio-one:focus-within {
     outline: none;
     background-color: hsl(148, 38%, 91%);
     border: 2px solid hsl(169, 51%, 44%);
 }
-
 input[type=text]:hover,
 input[type=email]:hover,
 textarea:hover {
     border: 2px solid hsl(169, 51%, 44%);
 }
-
 input[type=submit]:hover {
     cursor: pointer;
     background-color: hsl(169, 81%, 17%);
 }
-
 .error {
     display: flex;
     opacity: 0;
     color: rgb(240, 68, 68);
 }
-
-.aparecer {
-    opacity: 1;
+.attribution a:hover{
+    color: hsl(0, 100%, 63%);
+}
+.attribution{
+    display: flex;
+    justify-content: center;
+    margin: 45px;
+}
+.attribution a{
+    font-size: 17px;
+    text-decoration: none;
 }
